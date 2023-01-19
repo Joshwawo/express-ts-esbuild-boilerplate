@@ -15,6 +15,9 @@
       "esnext"
     ],
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
